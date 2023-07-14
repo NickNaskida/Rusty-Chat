@@ -1,0 +1,55 @@
+:root {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  color: var(--color-text-1);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+html, body {
+  width: 100%;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+body {
+  background-image: url("bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: var(--color-text-1);
+  margin-bottom: 20px;
+}
+
+img {
+  width: 180px;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 50px;
+}
+
