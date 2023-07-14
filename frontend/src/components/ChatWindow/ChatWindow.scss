@@ -11,8 +11,10 @@
   }
 
   &_message_box {
+    width: 100%;
     height: calc(100% - 54px);
     margin-bottom: 20px;
+    overflow-y: auto;
   }
 
   &_message_input {
@@ -48,5 +50,17 @@
       color: var(--color-text-1);
       cursor: pointer;
     }
+  }
+
+  &_message {
+    max-width: 75%;
+    width: fit-content;
+    padding: 6px 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    background-color: var(--color-primary);
+    border-radius: 15px;
   }
 }
